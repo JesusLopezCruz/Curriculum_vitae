@@ -1,0 +1,75 @@
+/********************************************************
+
+Estilos: mis_estilos_cv.css
+
+*******************************************************/
+
+/* Estilo general dibujado a mano */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Patrick Hand", sans-serif;
+}
+
+/*********  separadores  ************/
+.separadores_2 {
+    margin-top: 5%;
+}
+
+#contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#contenedor .caja{
+    flex: 1;                
+    min-width: 250px;      
+    border:1px solid black;
+    width: 33.3%;
+    height: 450px;
+    display: inline-flex;
+    padding: 1rem;
+}
+
+#contenedor .caja .foto{
+    width: 5rem;
+    padding: 10px;
+}
+
+.card-body span .img_logo{
+    width:25px;
+}
+/****** texto en Vertical ****/
+.texto_v{
+          writing-mode: vertical-rl;
+      text-orientation: upright;
+      font-size: 20px;
+      color:rgb(180, 180, 182);
+      margin-right: 10px;
+      text-decoration: overline;
+      font-family: sans-serif;
+}
+
+body .logo_pdf{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+body .logo_pdf .mi_logo{
+    width: 4rem;
+}
+
+a{
+   color: red; 
+}
+a:hover{
+    font-style: italic;
+}
+
+/********footer  ************/
+/********centrar texto  ************/
+.text-center{
+    text-align: center;
+}
